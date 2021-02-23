@@ -1,0 +1,579 @@
+body {
+    background-color: #E1DDDB;
+}
+
+#o_meni, #obrazovanje, #projekti, #kontakt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    color: #0C4A60;
+    margin: auto;
+    align-items: center;
+}
+
+#dugme {
+    background-color:#EF6C33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+    margin-top: 500px;
+    margin-left: 200px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-align: center;
+    border: solid 2px #0C4A60;
+}
+
+#dugme2 {
+    background-color:#EF6C33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+    margin-top: 320px;
+    margin-left: 350px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-align: center;
+    border: solid 2px #0C4A60;
+    color:#E1DDDB;
+}
+
+#dugme2:hover {
+    color:#0C4A60;
+    transition: all 0.3s ease;
+}
+
+#boja {
+    color:#E1DDDB;
+}
+
+#boja:hover {
+    color:#0C4A60;
+    transition: all 0.3s ease;
+}
+
+#o_meni:hover {
+    transition: all 0.3s ease;
+    color:#EF6C33
+}
+
+#obrazovanje:hover {
+    transition: all 0.3s ease;
+    color:#EF6C33
+}
+#projekti:hover {
+    transition: all 0.3s ease;
+    color:#EF6C33
+}
+#kontakt:hover {
+    transition: all 0.3s ease;
+    color:#EF6C33
+}
+
+.info {
+    margin-top: -18px;
+}
+
+#text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #0C4A60;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-size: 30px;
+    position: absolute;
+    cursor: default;
+    display: block;
+}
+
+#text2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #0C4A60;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 200px;
+    position: absolute;
+    max-width: 700px;
+    cursor: default;
+    display: block;
+}
+
+#text3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #0C4A60;
+    margin-left: 547px;
+    font-size: 30px;
+    margin-top: 102px;
+    position: absolute;
+    cursor: default;
+    display: block;
+}
+
+#pitanje {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #0C4A60;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 47px;
+    position: absolute;
+    display: block;
+    width: 700px;
+    text-align: center;
+    cursor: default;
+}
+
+#zapratite {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #0C4A60;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 500px;
+    position: absolute;
+    display: block;
+    cursor: default;
+}
+
+.mreze {
+    margin-top: 550px;
+    position: absolute;
+    display: block;
+    margin-left: 110px;
+
+}
+
+.forma {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #0C4A60;
+    margin-left: 5px; font-size: 30px;
+    margin-top: 120px;
+    position: absolute;
+    display: block;
+}
+
+#gh {
+    position: absolute;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.kontakt_text {
+    display: none;
+}
+
+#ime {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#EF6C33;
+    font-size: 30px;
+    margin-top: 102px;
+    margin-left: 321px;
+    position: absolute;
+    cursor: default;
+    display: block;
+}
+
+#krug {
+    background-color:#EF6C33;
+    width: 500px;
+    height: 500px;
+    border:solid 1px #EF6C33;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+
+#slika {
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 800px;
+}
+
+.obrazovanje_text {
+    position: absolute;
+    width: 700px;
+    margin-top: 90px;
+    margin-left: 75px;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0C4A60;
+    cursor: pointer;
+}
+
+a:hover {
+    color:#EF6C33;
+    transition: all 0.3s ease;
+}
+
+#srednja_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    overflow: hidden;
+    color: #0C4A60;
+    align-items: center;
+    cursor:default;
+}
+
+#visa_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display:block;
+    text-decoration: none;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 200px;
+    color: #0C4A60;
+    align-items: center;
+    cursor:default;
+}
+
+#srednja {
+    margin-top: 10px;
+    margin-left: -75px;
+    position: absolute;
+    display: block;
+}
+
+#visa {
+    margin-top: 220px;
+    margin-left: -50px;
+    position: absolute;
+    display: block;
+}
+
+.projekti_text {
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+}
+
+li {
+    text-decoration: none;
+    display:block;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0C4A60;
+    cursor: default;
+}
+
+#tekst {
+    font-size: 19px;
+    color: #0C4A60;
+}
+
+#tekst2 {
+    font-size: 19px;
+    color: #0C4A60;
+    visibility: hidden;
+}
+
+#tekst3 {
+    font-size: 19px;
+    color: #0C4A60;
+    visibility: hidden;
+}
+
+#tekst4 {
+    font-size: 19px;
+    color: #0C4A60;
+    visibility: hidden;
+}
+
+#tekst5 {
+    font-size: 19px;
+    color: #0C4A60;
+    visibility: hidden;
+}
+
+#tekst6 {
+    font-size: 19px;
+    color: #0C4A60;
+    visibility: hidden;
+}
+
+#tekst7 {
+    font-size: 19px;
+    color: #0C4A60;
+    visibility: hidden;
+}
+
+#tekst8 {
+    font-size: 19px;
+    color: #0C4A60;
+    visibility: hidden;
+}
+
+#sajt2 {
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+#sajt3 {
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+#sajt4 {
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+#sajt5 {
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+#sajt6 {
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+#sajt7 {
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+#sajt8 {
+    margin-top: -36px;
+    visibility: hidden;
+}
+
+#projekat1 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#projekat2 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#projekat3 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#projekat4 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#projekat5 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#projekat6 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#projekat7 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#projekat8 {
+    border:solid 2px #EF6C33;
+    border-radius: 10px;
+}
+
+#arrow_left {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+
+#arrow_right {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+
+#arrow_left2 {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_right2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_left3 {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_right3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_left4 {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_right4 {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_left5 {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_right5 {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_left6 {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_right6 {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_left7 {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_right7 {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_left8 {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#arrow_right8 {
+    width: 100px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 230px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    visibility: hidden;
+}

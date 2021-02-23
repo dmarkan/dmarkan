@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function () {
+            $("#obrazovanje").click(function () {
+                $(".obrazovanje_text").fadeIn(1000);
+                $(".info").fadeOut(1000);
+                $(".projekti_text").fadeOut(1000);
+                $(".kontakt_text").fadeOut(1000);
+                 });
+        });
+        $(document).ready(function () {
+            $("#o_meni").click(function () {
+                $(".info").fadeIn(1000);
+                $(".obrazovanje_text").fadeOut(1000);
+                $(".projekti_text").fadeOut(1000);
+                $(".kontakt_text").fadeOut(1000);
+            });
+        });
+        $(document).ready(function () {
+            $("#projekti").click(function () {
+                $(".projekti_text").fadeIn(1000);
+                $(".obrazovanje_text").fadeOut(1000);
+                $(".info").fadeOut(1000);
+                $(".kontakt_text").fadeOut(1000);
+            });
+        });
+        $(document).ready(function () {
+            $("#kontakt").click(function () {
+                $(".kontakt_text").fadeIn(1000);
+                $(".obrazovanje_text").fadeOut(1000);
+                $(".info").fadeOut(1000);
+                $(".projekti_text").fadeOut(1000);
+            });
+        });
+         </script>
+</head>
+
+<body>
+    
+    <header>
+        <div class="meni">
+            <ul>
+                <li id="o_meni">O Meni</li>
+                <li id="obrazovanje">Obrazovanje</li>
+                <li id="projekti">Projekti</li>
+                <li id="kontakt">Kontakt</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="info">
+        <p id="text">
+            Zdravo, moje ime je</p>&nbsp;&nbsp;<p id="ime"><b>Darko Markan</b></p>
+        <p id="text2"> Učim programiranje i želja mi je da postanem
+            <i>Front End Web Developer</i> i da nadjem posao u toj struci.
+            Ovo je moj zvanični sajt i na njemu možete pronaći moje
+            projekte, pročitati moju biografiju i videti načine na koje
+            me možete kontaktirati ukoliko želite saradnju sa mnom.</p>
+            <p id="text3">.</p>
+            <button id="dugme"><a id="boja" href="https://docdro.id/P5Tp2u7" target="_blank"><b>Preuzmi moj CV</b></a></button>
+        </div>
+        <div id="krug"></div>
+        <img id="slika" src="images/slika.png" alt="slika">
+        <div class="obrazovanje_text">
+            <ul type="disc">
+                <img id="srednja" src="images/srednja.png" width="150px" height="100px">
+
+                <li id="srednja_text"><a href="https://www.vakademija.edu.rs/" target="_blank">Tehnička škola Petar Drapšin - 2006.</a><br><br>
+                    <b>Mašinski tehničar za kompjutersko konstruisanje</b></li><br><br>
+                <img id="visa" src="images/visa.png" width="100px" height="100px">
+
+                <li id="visa_text"><a href="https://www.viser.edu.rs/" target="_blank">Visoka škola elektrotehnike i računarstva strukovnih studija -
+                        2010.</a><br><br>
+                    <b>Inženjer za elektronsko poslovanje</b></li>
+            </div>
+            <div class="projekti_text">
+                <ul>
+                    <li id="sajt1"><a href="https://dmarkan.github.io/galerija/" target="_blank">
+                        <h1>Galerija za sajtove</h1></a>
+                        <img id="projekat1" src="images/projekat1.png" width="550px" height="400px">
+                        <p id="tekst">Kod za galeriju koji sam napisao koji se može koristiti za sajtove</p>
+                        <img id="logos" src="images/logos.png" width="200px" height="70px">
+                      <img id="jquery" src="images/jquery.png" width="200px" height="70px"></li>
+                    <li id="sajt2"> <a href="https://dmarkan.github.io/shopping_cart/" target="_blank">
+                        <h1><br>Shopping cart</h1></a>
+                        <img id="projekat2" src="images/projekat2.png" width="550px" height="400px">
+                        <p id="tekst2">Kod za shopping cart koji sam napisao koji se može koristiti za sajtove</p>
+                        <img id="logos2" src="images/logos.png" width="200px" height="70px"></li>
+                    <li id="sajt3"><a href="https://dmarkan.github.io/login/" target="_blank">
+                        <h1><br>Sign-Up/Login</h1></a>
+                        <img id="projekat3" src="images/projekat3.png" width="550px" height="400px">
+                      <p id="tekst3">Sign-Up/Login forma koja se može koristiti za sajtove</p>
+                        <img id="logos2" src="images/logos.png" width="200px" height="70px"></li>
+                    <li id="sajt4"><a href="https://dmarkan.github.io/beleske/" target="_blank">
+                        <h1><br>Beleške</h1></a>
+                        <img id="projekat4" src="images/projekat4.png" width="550px" height="400px">
+                        <p id="tekst4">Aplikacija za pisanje i uklanjanje beleški</p>
+                        <img id="logos2" src="images/logos.png" width="200px" height="70px"></li>
+                    <li id="sajt5"><a href="https://dmarkan.github.io/tuscan/" target="_blank">
+                        <h1><br>Tuscan</h1></a>
+                        <img id="projekat5" src="images/projekat5.png" width="550px" height="400px">
+                        <p id="tekst5">Avanturistička igrica gde se priča odvija na osnovu izbora koje igrač pravi u toku igre</p>
+                        <img id="logos" src="images/logos.png" width="200px" height="70px">
+                        <img id="jquery" src="images/jquery.png" width="200px" height="70px"></li>
+                    <li id="sajt6"><a href="https://dmarkan.github.io/vreme_mobi/" target="_blank">
+                        <h1><br>Vremenska prognoza</h1></a>
+                        <img id="projekat6" src="images/projekat6.png" width="550px" height="400px">
+                        <p id="tekst6">Vremenska prognoza u Srbiji koja prikazuje prognozu za zadate gradove</p>
+                        <img id="logos2" src="images/logos.png" width="200px" height="70px"></li>
+                    <li id="sajt7"><a href="https://dmarkan.github.io/digitron_mobi/" target="_blank">
+                        <h1><br>Digitron</h1></a>
+                        <img id="projekat7" src="images/projekat7.png" width="550px" height="400px">
+                        <p id="tekst7">Aplikacija koja služi za obavljanje osnovnih računskih operacija</p>
+                        <img id="logos2" src="images/logos.png" width="200px" height="70px"></li>
+                    <li id="sajt8"><a href="https://dmarkan.github.io/quest/" target="_blank">
+                        <h1><br>The Quest</h1></a>
+                        <img id="projekat8" src="images/projekat8.png" width="550px" height="400px">
+                        <p id="tekst8">Logička igrica gde igrač treba da pobegne iz sobe rešavajući probleme</p>
+                        <img id="logos" src="images/logos.png" width="200px" height="70px">
+                        <img id="jquery" src="images/jquery.png" width="200px" height="70px"></li>
+                </ul>
+                <img id="arrow_left" src="images/arrow_left.png"></li>
+                <img id="arrow_right" src="images/arrow_right.png"></li>
+                <img id="arrow_left2" src="images/arrow_left.png"></li>
+                <img id="arrow_right2" src="images/arrow_right.png"></li>
+                <img id="arrow_left3" src="images/arrow_left.png"></li>
+                <img id="arrow_right3" src="images/arrow_right.png"></li>
+                <img id="arrow_left4" src="images/arrow_left.png"></li>
+                <img id="arrow_right4" src="images/arrow_right.png"></li>
+                <img id="arrow_left5" src="images/arrow_left.png"></li>
+                <img id="arrow_right5" src="images/arrow_right.png"></li>
+                <img id="arrow_left6" src="images/arrow_left.png"></li>
+                <img id="arrow_right6" src="images/arrow_right.png"></li>
+                <img id="arrow_left7" src="images/arrow_left.png"></li>
+                <img id="arrow_right7" src="images/arrow_right.png"></li>
+                <img id="arrow_left8" src="images/arrow_left.png"></li>
+                <img id="arrow_right8" src="images/arrow_right.png"></li>
+            </div>
+            <div class="kontakt_text">
+            <p id="pitanje">Ako imate neko pitanje za mene, možete ga postaviti ispod a ja
+                ću se potruditi da vam odgovorim u najkraćem mogućem roku.</p>
+                <form class="forma" name="Pitanja za mene" action="mailto:markandarko@yahoo.com" method="post">
+                <textarea name="pitanje" id="pitanje" cols="30" rows="7" placeholder="Postavi mi pitanje:"></textarea>
+                <input id="dugme2" type="submit" value="Pošalji">
+                </form>
+                <br><br>
+                <p id="zapratite">Zapratite me na društvenim mrežama:</p>
+                <div class="mreze">
+                <a href="https://www.facebook.com/darko.markan.39" target="_blank">
+                <img src="images/fb.png" width="100px" height="60px">
+                </a>
+                <a href="https://www.instagram.com/darkomarkan/" target="_blank">
+                <img src="images/in.jpg" width="65px" height="55px">
+                </a>
+                <a href="https://www.linkedin.com/in/darko-markan-36b922203/" target="_blank">
+                <img src="images/li.png" width="110px" height="55px">
+                </a>
+                <a href="https://github.com/dmarkan" target="_blank">
+                <img id="gh" src="images/git.png" width="80px" height="75px">
+                </a>
+                </div>
+            </div>
+
+    </main>
+<script src="main.js"></script>
+
+</body>
+</html>
